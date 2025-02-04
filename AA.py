@@ -13,5 +13,6 @@ print(f"There are {oo} words")
 numm = input("Give a number in number form")
 numm = int(numm)
 
-if numm 
+if numm:
+    aa
 
