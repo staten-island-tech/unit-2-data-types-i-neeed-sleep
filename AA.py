@@ -1,5 +1,4 @@
-#EEE
-
+#Counts words in a sentence
 sentence = input("Input a sentence. ")
 eee = sentence.split()
 
@@ -10,9 +9,19 @@ for i in eee:
 
 print(f"There are {oo} words")
 
-numm = input("Give a number in number form")
-numm = int(numm)
 
-if numm:
-    aa
+#Tells if a number is odd or even
+n = input("The number is...")
+n = int(n)
 
+if n % 2 == 0:
+    print("Which means it's even")
+else:
+    print("Which means it's odd")
+
+
+#"Would you like to tip?"
+bill = input("What was the bill?")
+tip = input("Tip? [0%, 10%, 20%, 25%]")
+
+if tip = "0%"
