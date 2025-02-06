@@ -21,7 +21,20 @@ else:
 
 
 #"Would you like to tip?"
-bill = input("What was the bill?")
-tip = input("Tip? [0%, 10%, 20%, 25%]")
+bill = input("How much was the bill?")
+ser = input("How was the service? [bad, okay, good, or great]")
 
-if tip = "0%"
+if ser == "bad":
+    tip = input("Would you like to tip 0%?")
+elif ser == "okay":
+    tip = input("Would you like to tip 10%?")
+elif ser == "good":
+    tip = input("Would you like to tip 20%?")
+elif ser == "great":
+    tip = input("Would you like to tip 25%?")
+else :
+    print("Please answer with one of the options")
+
+
+#Input then factor
+
