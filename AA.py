@@ -32,9 +32,27 @@ elif ser == "good":
     tip = input("Would you like to tip 20%?")
 elif ser == "great":
     tip = input("Would you like to tip 25%?")
-else :
-    print("Please answer with one of the options")
 
 
 #Input then factor
+nnn = input("Give a number")
+nnn = int(nnn)
+
+if nnn < 0:
+    nnn = nnn * -1
+
+def fac(x):
+   print("The factors of",x,":")
+   for i in range(1, x + 1):
+        if x % i == 0:
+           print(i)
+        if i > x:
+            
+
+fac(nnn)
+
+
+#GCF
+frt = input("Type number")
+scd = input("Type another number")
 
