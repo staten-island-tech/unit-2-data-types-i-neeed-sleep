@@ -6,20 +6,27 @@ frt = int(frt)
 scd = int(scd)
 
 fct = []
+fctB = []
 
 def ftr(y):
     for i in range(1, y + 1):
         if y % i == 0:
             fct.append(i)
-        if i > y:
-            return(ftr)
+
+def ftrB(y):
+    for i in range(1, y + 1):
+        if y % i == 0:
+            fctB.append(i)
 
 ftr(frt)
-ftr(scd)
+ftrB(scd)
 
-fctA = list()
+cf = []
 
-for i in range:
-    
+for item in fct:
+    if item in fctB:
+        cf.append(item)
 
-print(f"The greatest common factor between {frt} and {scd} is {fctA}")
+gcf = max(cf)
+
+print(f"The greatest common factor between {frt} and {scd} is {gcf}")

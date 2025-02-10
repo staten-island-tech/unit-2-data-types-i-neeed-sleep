@@ -53,21 +53,3 @@ fac(nnn)
 
 
 #GCF
-frt = input("Type number")
-scd = input("Type another number")
-
-frt = int(frt)
-scd = int(scd)
-
-fctA = (1, 1)
-
-def ftgA(y):
-    for i in range(1, y + 1):
-        if y % i == 0:
-            fctA.add(i)
-        if i > y:
-            return(ftgA)
-
-ftgA(frt)
-
-print(fctA)
