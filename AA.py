@@ -50,6 +50,3 @@ def fac(x):
             return(fac)
 
 fac(nnn)
-
-
-#GCF
