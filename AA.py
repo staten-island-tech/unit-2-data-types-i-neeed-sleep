@@ -62,18 +62,15 @@ scd = int(scd)
 fct = []
 fctB = []
 
-def ftr(y):
-    for i in range(1, y + 1):
-        if y % i == 0:
-            fct.append(i)
 
-def ftrB(y):
-    for i in range(1, y + 1):
-        if y % i == 0:
-            fctB.append(i)
+for i in range(1, frt + 1):
+    if frt % i == 0:
+        fct.append(i)
 
-ftr(frt)
-ftrB(scd)
+for i in range(1, scd + 1):
+    if scd % i == 0:
+        fctB.append(i)
+
 
 cf = []
 
