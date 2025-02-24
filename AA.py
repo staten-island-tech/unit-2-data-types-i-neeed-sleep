@@ -71,13 +71,12 @@ for i in range(1, scd + 1):
     if scd % i == 0:
         fctB.append(i)
 
-
 cf = []
 
-for item in fct:
-    if item in fctB:
-        cf.append(item)
+for i in fct:
+    if i in fctB:
+        cf.append(i)
 
-gcf = max(cf)
+gcf = cf[-1]
 
 print(f"The greatest common factor between {frt} and {scd} is {gcf}")
