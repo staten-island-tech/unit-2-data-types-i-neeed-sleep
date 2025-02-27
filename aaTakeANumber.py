@@ -1,11 +1,11 @@
-status = input()
+stuff = input()
 t = 0
 s = 0
 
-for i in status:
+for i in stuff:
     if i == "TAKEN":
         t += 1
     elif i == "SERVE":
         s += 1
     elif i == "CLOSED":
-        print(f"{t} 0 23 \n")
+        print(f"{t}  \n")
