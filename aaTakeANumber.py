@@ -15,6 +15,8 @@ for i in stuff:
     elif i == "CLOSE":
         w = t - s
         num += t
+        if num > 999:
+            num = 1
         print(f"{t} {w} {num}\n")
         t = 0
         s = 0
