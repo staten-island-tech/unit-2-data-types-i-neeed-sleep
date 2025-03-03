@@ -53,28 +53,13 @@ fac(nnn)
 
 
 #GCF
-frt = input("Type number")
-scd = input("Type another number")
-
-frt = int(frt)
-scd = int(scd)
-
-fct = []
-fctB = []
-
-
-for i in range(1, frt + 1):
-    if frt % i == 0:
-        fct.append(i)
-
-for i in range(1, scd + 1):
-    if scd % i == 0:
-        fctB.append(i)
+frt = int(input("Type number"))
+scd = int(input("Type another number"))
 
 cf = []
 
-for i in fct:
-    if i in fctB:
+for i in range(1, frt + scd):
+    if frt % i == 0 and scd % i == 0:
         cf.append(i)
 
 gcf = max(cf)
