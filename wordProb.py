@@ -1,5 +1,5 @@
 e = []
-x = (input("please enter the price of items one by one"))
+x = (input("Please enter the price of items one by one"))
 
 while x != "done":
      e.append(x)
@@ -13,6 +13,5 @@ for i in e:
 
 if t >= 100:
      t *= 0.9
-     print("Applying 10% discount")
 
 print(f"Total:${t}")
